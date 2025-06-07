@@ -1,0 +1,68 @@
+.drone-container {
+  display: flex;
+  flex-direction: row; /* סדר רגיל */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.drone-form-box {
+  width: 450px;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  direction: rtl;
+}
+
+
+.drone-form-box h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.import-button {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.map-container {
+  flex: 0 0 350px;
+  height: 350px;
+  margin-top: 200px;
+}
+
