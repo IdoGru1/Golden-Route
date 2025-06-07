@@ -1,0 +1,22 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model DroneCheck {
+  id             Int      @id @default(autoincrement())
+  latitude       Float
+  longitude      Float
+  radius         Float
+  speed          Float
+  threat         Boolean
+  flightCallsign String? 
+  distance       Float?  
+  closureTime    Float?  
+  createdAt      DateTime @default(now())
+}
