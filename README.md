@@ -69,6 +69,7 @@ exit
 
 ------
 Golden-Route/
+
 ├── Client/           # צד לקוח - React
 
 ├── Server/           # צד שרת - Express + Prisma
