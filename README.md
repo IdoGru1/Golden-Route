@@ -29,7 +29,7 @@
 
 ## 🛠️ הוראות התקנה והרצה
 
-### 1. שיבוט הריפוזיטורי:
+### 1. שיכפול הריפוזיטורי:
 
 ------
 git clone https://github.com/IdoGru1/Golden-Route.git
